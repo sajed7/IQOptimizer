@@ -1,0 +1,25 @@
+### WORKING CSS : SHOOTER
+
+### ADD GLOBE ICON IN NAV
+
+### LAG IN MOBILE NAV POPUP SELECTOR
+
+# INDEX
+
+-   headers
+-
+
+<!-- Popup Lang -->
+
+    <div class="mpl-fancybox-search mpl-fancybox-content" id="popup-lang">
+        <div class="container">
+
+        </div>
+    </div>
+
+# SIGN
+
+-   FIX THE LINKS IN THE NAV
+
+*   scrol animation would be nice
+*   Oblique lists
