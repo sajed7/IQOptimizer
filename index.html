@@ -329,6 +329,8 @@
             <div class="mpl-navbar-footer">
                 <ul class="mpl-navbar-nav">
 
+                    <!-- TODO: usefull ? -->
+                    <!-- cart -->
                     <li>
                         <a class="mpl-nav-link" href="#" data-fancybox data-src="#popup-cart" data-touch="false"
                            data-small-btn="false" data-toolbar="false" data-close-existing="true"
@@ -340,6 +342,7 @@
                             </svg>
                         </a>
                     </li>
+                    <!-- Profile -->
                     <li>
                         <!-- TODO: If Signed In go To Profile -->
                         <a class="mpl-nav-link" href="#" data-fancybox data-src="#popup-signin" data-touch="false"
@@ -352,6 +355,7 @@
                             </svg>
                         </a>
                     </li>
+                    <!-- Language -->
                     <li>
                         <a class="mpl-nav-link" href="#" data-fancybox data-src="#popup-lang" data-touch="false"
                            data-small-btn="false" data-toolbar="false" data-close-existing="true"
@@ -373,21 +377,25 @@
 
 
     <div class="content-wrap">
+
         <div class="mpl-navbar-mobile-overlay"></div>
         <div>
             <!-- BANNER -->
             <section class="mpl-banner mpl-banner-top mpl-banner-parallax">
+                <!-- BG -->
                 <div class="mpl-image" data-speed="0.8">
                     <img src="assets/images/shooter/bg-banner-1.jpg" alt="" class="jarallax-img">
                 </div>
+
+                <!-- HEADER -->
                 <div class="mpl-banner-content mpl-box-lg">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-9" data-sr="banner" data-sr-interval="200" data-sr-duration="1200"
+                            <div class="col-12 text-center" data-sr="banner" data-sr-interval="200" data-sr-duration="1200"
                                  data-sr-distance="20">
-                                <h1 class="display-1 text-uppercase" data-sr-item="banner">Optimize Your PC Performance
+                                <h1 class="display-1 text-uppercase" data-sr-item="banner"> IQOptimizer
                                 </h1>
-                                <p class="lead" data-sr-item="banner"> With our Services and enjoy sublime experience.
+                                <p class="lead" data-sr-item="banner"> Get Ready for Sublime Gaming experience.
                                 </p>
                                 <a class="btn btn-md" href="#about" data-sr-item="banner"> Discover How </a>
                             </div>
@@ -395,6 +403,9 @@
                     </div>
                 </div>
             </section>
+
+
+            <!-- SALE ROW -->
             <div class="mpl-box-sm bg-light">
                 <div class="container">
                     <div class="row hgap-md vgap-md" data-sr="posts" data-sr-interval="120" data-sr-duration="1000"
@@ -447,11 +458,17 @@
                     </div>
                 </div>
             </div>
+
+
             <!-- ABOUT -->
             <section class="mpl-banner big mpl-banner-parallax" id="about">
+
+                <!-- BG -->
                 <div class="mpl-image" data-speed="0.8">
                     <img class="jarallax-img" src="assets/images/shooter/bg-1.jpg" alt="">
                 </div>
+
+                <!-- HEADER -->
                 <div class="mpl-banner-content mpl-box-lg container">
                     <div class="row">
                         <div class="col-12 text-center" data-sr="text" data-sr-interval="100" data-sr-duration="1000"
@@ -463,10 +480,12 @@
                         </div>
 
                     </div>
+
+
                     <!-- Features -->
                     <div class="row vgap" data-sr="feature" data-sr-interval="180" data-sr-duration="1000"
                          data-sr-distance="20">
-                        <div class="col-12 col-md-6 col-lg-4" data-sr-item="feature">
+                        <!-- <div class="col-12 col-md-6 col-lg-4" data-sr-item="feature">
                             <div class="mpl-feature">
                                 <div class="mpl-feature-icon"><svg class="icon" viewBox="0 0 24 24"
                                          stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -480,6 +499,21 @@
                                     restores when done gaming
                                 </div>
                             </div>
+                        </div> -->
+                        <div class="col-12 col-md-6 col-lg-4" data-sr-item="feature">
+                            <div class="mpl-feature">
+                                <div class="mpl-feature-icon"><svg class="icon" viewBox="0 0 24 24"
+                                         stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3 14H10V21H3V14Z"></path>
+                                        <path d="M3 3H10V10H3V3Z"></path>
+                                        <path d="M14 3H21V10H14V3Z"></path>
+                                        <path d="M14 14H21V21H14V14Z"></path>
+                                    </svg></div>
+                                <div class="mpl-feature-title h4">IMPROVES NETWORK CONNECTION</div>
+                                <div class="mpl-feature-text">IQOptimizer Optimizes Network Settings to Fully Utilize
+                                    The Available Bandwidth
+                                </div>
+                            </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4" data-sr-item="feature">
                             <div class="mpl-feature">
@@ -491,7 +525,8 @@
                                     </svg></div>
                                 <div class="mpl-feature-title h4">MAXIMIZE FPS</div>
                                 <div class="mpl-feature-text">
-                                    Increases your FPS by micro-managing your Windows and stops non-essential processes
+                                    Increases your FPS and Minimize Input-lag by micro-managing your Windows and stops
+                                    non-essential processes
 
                                 </div>
                             </div>
@@ -506,15 +541,61 @@
                                     </svg></div>
                                 <div class="mpl-feature-title h4">FREEUP RESOURCES</div>
                                 <div class="mpl-feature-text">IQOptimizer Manages and
-                                    lebarates valuable resources like RAM for
+                                    lebarates valuable resources like RAM and CPU for
                                     smoother experience
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="row vgap my-5" data-sr="feature" data-sr-interval="180" data-sr-duration="1000"
+                         data-sr-distance="20">
+                        <div class="col-12 col-md-6 col-lg-4" data-sr-item="feature">
+                            <div class="mpl-feature">
+                                <div class="mpl-feature-icon"><svg class="icon" viewBox="0 0 24 24"
+                                         stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3 14H10V21H3V14Z"></path>
+                                        <path d="M3 3H10V10H3V3Z"></path>
+                                        <path d="M14 3H21V10H14V3Z"></path>
+                                        <path d="M14 14H21V21H14V14Z"></path>
+                                    </svg></div>
+                                <div class="mpl-feature-title h4">SPEEDUP BOOT AND SCAN</div>
+                                <div class="mpl-feature-text">Perform Full Scan to ensure no virus exist that affect
+                                    game performance
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4" data-sr-item="feature">
+                            <div class="mpl-feature">
+                                <div class="mpl-feature-icon"><svg class="icon" viewBox="0 0 24 24"
+                                         stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                              d="M1 1H5L7.68 14.39M7.68 14.39C7.77144 14.8504 8.02191 15.264 8.38755 15.5583C8.75318 15.8526 9.2107 16.009 9.68 16H19.4C19.8693 16.009 20.3268 15.8526 20.6925 15.5583C21.0581 15.264 21.3086 14.8504 21.4 14.39L23 6H6L7.68 14.39ZM10 21C10 21.5523 9.55228 22 9 22C8.44772 22 8 21.5523 8 21C8 20.4477 8.44772 20 9 20C9.55228 20 10 20.4477 10 21ZM21 21C21 21.5523 20.5523 22 20 22C19.4477 22 19 21.5523 19 21C19 20.4477 19.4477 20 20 20C20.5523 20 21 20.4477 21 21Z">
+                                        </path>
+                                    </svg></div>
+                                <div class="mpl-feature-title h4">Optimize Windows Settings</div>
+                                <div class="mpl-feature-text">
+                                    IQOptimizer Manages Windows Settings to Solve Commons Performance Issues
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4" data-sr-item="feature">
+                            <div class="mpl-feature">
+                                <div class="mpl-feature-icon"><svg class="icon" viewBox="0 0 24 24"
+                                         stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                              d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21M23 21V19C22.9993 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13M16 3.13C16.8604 3.3503 17.623 3.8507 18.1676 4.55231C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89317 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88M13 7C13 9.20914 11.2091 11 9 11C6.79086 11 5 9.20914 5 7C5 4.79086 6.79086 3 9 3C11.2091 3 13 4.79086 13 7Z">
+                                        </path>
+                                    </svg></div>
+                                <div class="mpl-feature-title h4">Update Drivers</div>
+                                <div class="mpl-feature-text">
+                                    IQOptimizer regularly checks for latest updates for Drivers Definitions and Upgrades
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
 
                 </div>
-
             </section>
 
 
@@ -525,6 +606,8 @@
 
                         <div class="row hgap-lg vgap-lg align-items-center" data-sr="IQO" data-sr-interval="120"
                              data-sr-duration="1000" data-sr-distance="20">
+
+                            <!-- TEXT -->
                             <div class="col-12 col-lg-6">
                                 <h2 class="display-2 text-uppercase" data-sr-item="IQO">IQOptimizer SOFTWARE
                                 </h2>
@@ -535,6 +618,8 @@
                                 </p>
                                 <a class="btn btn-md" href="#about" data-sr-item="IQO"> Subscribe </a>
                             </div>
+
+                            <!-- IMAGE -->
                             <div class="col-12 col-lg-6" data-sr-item="IQO">
                                 <a class="mpl-gallery-item" href="assets/images/shooter/coming-soon-full.jpg"
                                    data-fancybox="gallery">
@@ -546,12 +631,57 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- THREE IMAGES -->
+                <div class="mpl-box-md" data-sr="esports" data-sr-interval="200" data-sr-duration="1000" data-sr-distance="20">
+                    <div class="container text-center">
+                        <h2 class="display-2" data-sr-item="esports"
+                            style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;">
+                            eSports</h2>
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8" data-sr-item="esports"
+                                 style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;">
+                                <p class="lead">Tournaments, Matches, Teams and Players.<br>Everything you need for esports
+                                    website</p>
+                            </div>
+                        </div>
+                        <a href="esports-teams.html" class="btn btn-md mt-20" data-sr-item="esports"
+                           style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: color 0.2s ease-in-out 0s, background-color 0.2s ease-in-out 0s, background-size 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s, opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;">View
+                            Teams</a>
+                    </div>
+                    <div class="mpl-demo-esports">
+                        <div class="container">
+                            <div data-sr="" data-sr-duration="1000" data-sr-delay="300" data-sr-origin="right" data-sr-distance="20"
+                                 style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.3s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0.3s;">
+                                <span class="mpl-image mpl-demo-img">
+                                    <img src="assets/images/demo/esports-1.jpg" alt="">
+                                </span>
+                            </div>
+                            <div data-sr="" data-sr-duration="1200"
+                                 style="visibility: visible; opacity: 1; transition: opacity 1.2s cubic-bezier(0.5, 0, 0, 1) 0s;">
+                                <span class="mpl-image mpl-demo-img">
+                                    <img src="assets/images/demo/esports-2.jpg" alt="">
+                                </span>
+                            </div>
+                            <div data-sr="" data-sr-duration="1000" data-sr-delay="500" data-sr-origin="left" data-sr-distance="20"
+                                 style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0.5s;">
+                                <span class="mpl-image mpl-demo-img">
+                                    <img src="assets/images/demo/esports-3.jpg" alt="">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
+
+
             <!-- PRICING -->
             <section id="pricing" class="mpl-banner big mpl-banner-parallax">
                 <div class="mpl-image" data-speed="0.8">
                     <img class="jarallax-img" src="assets/images/shooter/bg-2.jpg" alt="">
                 </div>
+
+
                 <div class="mpl-banner-content mpl-box-lg container">
                     <!-- justify-content-center added -->
                     <div class="row vgap align-items-center justify-content-center" data-sr="pricing"
@@ -624,16 +754,19 @@
                                 </div>
                             </div>
                         </div>
- -->
+-->
                     </div>
                 </div>
             </section>
+
 
             <!-- REVIEWS -->
             <section class="mpl-banner mpl-banner-top mpl-banner-parallax mpl-banner-small">
                 <div class="mpl-image" data-speed="0.8">
                     <img src="assets/images/dark/bg-banner-1.jpg" alt="" class="jarallax-img">
                 </div>
+
+
                 <div class="mpl-banner-content mpl-box-lg">
                     <div class="container mpl-box-md">
                         <h1 class="display-1 text-center">Reviews</h1>
@@ -699,13 +832,15 @@
                 </div>
             </section>
 
+
             <!-- FAQ -->
             <section id="faq">
                 <div class="container mpl-box-sm" data-sr="faq" data-sr-interval="120" data-sr-duration="1000"
                      data-sr-distance="20">
-                    <h1 class="display-1 text-uppercase text-center" data-sr-item="faq">FAQ
-                    </h1>
+
+                    <h1 class="display-1 text-uppercase text-center" data-sr-item="faq">FAQ</h1>
                     <hr>
+
                     <div class="accordion mb-60" id="accordion" role="tablist" aria-multiselectable="true"
                          data-sr-item="faq">
                         <a class="collapse-toggle" data-bs-toggle="collapse" href="#collapseOne" aria-expanded="true"
@@ -745,6 +880,7 @@
 
                 </div>
             </section>
+
 
             <!-- CONTACT -->
             <section class="mpl-banner mpl-banner-top mpl-banner-parallax mpl-banner-small">
@@ -814,110 +950,18 @@
                 </div>
             </section>
 
+
             <!-- Footer -->
-            <footer class="mpl-footer">
-                <div class="mpl-footer-wrapper">
-                    <div class="mpl-footer-contrainer container">
-                        <div class="row hgap-lg vgap-lg" data-sr=widget data-sr-duration=1200 data-sr-distance=20>
-                            <div class="col-lg">
-                                <a href="#" class="d-inline-block mb-20">
-                                    <img src="assets/images/logo-shooter.svg" alt="">
-                                </a>
-                                <p>2023 &copy; <a href="https://1.envato.market/nk-portfolio"
-                                       target="_blank">IQOptimizer</a>.
-                                    All rights reserved</p>
-                            </div>
-                            <div class="col-lg">
-                                <div class="mpl-widget mpl-widget-posts">
-                                    <h4 class="mpl-widget-title" data-sr-item="widget">Popular News</h4>
-                                    <ul class="list-unstyled" data-sr-item="widget">
-                                        <li>
-                                            <div class="mpl-widget-post mpl-post-item">
-                                                <a href="shooter-blog-post.html" class="mpl-post-image">
-                                                    <span class="mpl-image">
-                                                        <img src="assets/images/shooter/blog-1-160x140.jpg" alt="">
-                                                    </span>
-                                                </a>
-                                                <div class="mpl-post-content">
-                                                    <a href="shooter-blog-post.html" class="mpl-post-title h5">Prepare
-                                                        for the frontline</a>
-                                                    <div class="mpl-post-meta">
-                                                        <div class="mpl-post-date">
-                                                            <span>
-                                                                <svg class="icon" viewBox="0 0 24 24"
-                                                                     stroke="currentColor" fill="none"
-                                                                     xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                          d="M16 2V6M8 2V6M3 10H21M5 4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4Z" />
-                                                                </svg>
-                                                            </span> January 18, 2021
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="mpl-widget-post mpl-post-item">
-                                                <a href="shooter-blog-post.html" class="mpl-post-image">
-                                                    <span class="mpl-image">
-                                                        <img src="assets/images/shooter/blog-2-160x140.jpg" alt="">
-                                                    </span>
-                                                </a>
-                                                <div class="mpl-post-content">
-                                                    <a href="shooter-blog-post.html" class="mpl-post-title h5">Go hard
-                                                        or go home</a>
-                                                    <div class="mpl-post-meta">
-                                                        <div class="mpl-post-date">
-                                                            <span>
-                                                                <svg class="icon" viewBox="0 0 24 24"
-                                                                     stroke="currentColor" fill="none"
-                                                                     xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                          d="M16 2V6M8 2V6M3 10H21M5 4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4Z" />
-                                                                </svg>
-                                                            </span> January 18, 2021
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="mpl-widget-post mpl-post-item">
-                                                <a href="shooter-blog-post.html" class="mpl-post-image">
-                                                    <span class="mpl-image">
-                                                        <img src="assets/images/shooter/blog-3-160x140.jpg" alt="">
-                                                    </span>
-                                                </a>
-                                                <div class="mpl-post-content">
-                                                    <a href="shooter-blog-post.html" class="mpl-post-title h5">Fair play
-                                                        update</a>
-                                                    <div class="mpl-post-meta">
-                                                        <div class="mpl-post-date">
-                                                            <span>
-                                                                <svg class="icon" viewBox="0 0 24 24"
-                                                                     stroke="currentColor" fill="none"
-                                                                     xmlns="http://www.w3.org/2000/svg">
-                                                                    <path
-                                                                          d="M16 2V6M8 2V6M3 10H21M5 4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4Z" />
-                                                                </svg>
-                                                            </span> January 18, 2021
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg">
-                                <div class="mpl-widget mpl-widget-instagram">
-                                    <h4 class="mpl-widget-title" data-sr-item="widget">Instagram</h4>
-                                    <div class="mpl-instagram row hgap-xs vgap-xs" data-sr-item="widget"
-                                         data-instagram-quality="md" data-instagram-column-class="col-6 col-sm-4"
-                                         data-instagram-count="6"></div>
-                                </div>
-                            </div>
-                        </div>
+            <footer class="">
+                <div class="foo">
+                    <div class="mpl-footer-contrainer row align-items-center justify-content-center text-center"
+                         data-sr=widget data-sr-duration=1200 data-sr-distance=20>
+                        <a href="#" class="d-inline-block mb-20">
+                            <img src="assets/LOGO.webp" width="3%" alt="">
+                        </a>
+                        <p><a href="#">IQOptimizer</a>.</p>
+                        <p>All rights reserved 2023 &copy;</p>
+
                     </div>
                 </div>
             </footer>
@@ -943,6 +987,7 @@
             </form>
         </div>
     </div>
+
     <!-- Popup Sign In -->
     <div class="container mpl-fancybox-sign mpl-fancybox-content" id="popup-signin">
         <div class="mpl-fancybox-sign-content">
@@ -1009,73 +1054,21 @@
             </svg>
         </button>
     </div>
+
     <!-- TODO: -->
-    <!-- Popup Cart -->
+    <!-- Popup Lang not Cart -->
     <div class="container mpl-fancybox-cart mpl-fancybox-content" id="popup-lang">
         <div class="mpl-fancybox-cart-content">
-            <h2 class="h1 text-center">Cart</h2>
+            <h3 class=" text-center">Select Your Language</h3>
             <div class="row justify-content-between vgap">
-                <div class="col-12">
-                    <table class="table mpl-table-shop mpl-table-shop-sm mpl-table-responsive mb-0">
-                        <tbody>
-                            <tr class="mpl-table-product mpl-table-product-sm">
-                                <td class="mpl-table-image">
-                                    <a href="shop-product.html" class="mpl-table-product-image">
-                                        <span class="mpl-image">
-                                            <img src="assets/images/dark/product-260x200.jpg" alt="">
-                                        </span>
-                                    </a>
-                                </td>
-                                <td class="mpl-table-name" data-title="Product">
-                                    <a href="shop-product.html" class="mpl-table-product-title h5">Gamepad MPL</a>
-                                    <span class="mpl-price"> $120.00 </span>
-                                </td>
-                                <td class="mpl-table-remove">
-                                    <a href="#" class="mpl-table-product-remove">
-                                        <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none"
-                                             xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M18 6L6 18M6 6L18 18" />
-                                        </svg>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr class="mpl-table-product mpl-table-product-sm">
-                                <td class="mpl-table-image">
-                                    <a href="shop-product.html" class="mpl-table-product-image">
-                                        <span class="mpl-image">
-                                            <img src="assets/images/dark/product-2-260x200.jpg" alt="">
-                                        </span>
-                                    </a>
-                                </td>
-                                <td class="mpl-table-name" data-title="Product">
-                                    <a href="shop-product.html" class="mpl-table-product-title h5">Headphones MPL</a>
-                                    <span class="mpl-price"> $84.99 </span>
-                                </td>
-                                <td class="mpl-table-remove">
-                                    <a href="#" class="mpl-table-product-remove">
-                                        <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none"
-                                             xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M18 6L6 18M6 6L18 18" />
-                                        </svg>
-                                    </a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="col-12">
-                    <div class="d-flex justify-content-between h5 mb-0">
-                        <span>Subtotal:</span>
-                        <span>$70.00</span>
-                    </div>
-                </div>
+
                 <div class="col-12">
                     <div class="row hgap-xs vgap-xs">
                         <div class="col">
-                            <a href="light-cart.html" class="btn btn-block btn-default">View cart</a>
+                            <a href="index-ar.html" class="btn btn-block btn-default">Ar</a>
                         </div>
                         <div class="col">
-                            <a href="light-checkout.html" class="btn btn-block btn-default">Checkout</a>
+                            <a href="index.html" class="btn btn-block btn-default">En</a>
                         </div>
                     </div>
                 </div>
