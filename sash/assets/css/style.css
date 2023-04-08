@@ -27929,7 +27929,7 @@ body.dark-mode *:hover::-webkit-scrollbar-thumb {
 }
 .dark-mode .form-control {
   color: #dedefd;
-  background-color: #282848;
+  background-color: #282535;
   border-color: rgba(255, 255, 255, 0.1) !important;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -27951,7 +27951,7 @@ body.dark-mode *:hover::-webkit-scrollbar-thumb {
   color: #fff !important;
 }
 .dark-mode .form-control:disabled, .dark-mode .form-control[readonly] {
-  background-color: #282848;
+  background-color: #282535;
 }
 .dark-mode .form-control::-webkit-file-upload-button {
   color: #dedefd;

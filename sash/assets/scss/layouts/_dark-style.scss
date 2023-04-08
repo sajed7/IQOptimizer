@@ -701,7 +701,7 @@ body.dark-mode *:hover::-webkit-scrollbar-thumb {
     /*------- Forms -------*/
     .form-control {
         color: $text-color;
-        background-color: #282848;
+        background-color: #282535;
         border-color: $border-dark !important;
         transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 
@@ -728,7 +728,7 @@ body.dark-mode *:hover::-webkit-scrollbar-thumb {
 
         &:disabled,
         &[readonly] {
-            background-color: #282848;
+            background-color: #282535;
         }
 
         &::-webkit-file-upload-button {
