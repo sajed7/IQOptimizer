@@ -24,6 +24,7 @@ class BSTable {
         var defaults = {
             editableColumns: null, // Index to editable columns. If null all td will be editable. Ex.: "1,2,3,4,5"
             $addButton: null, // Jquery object of "Add" button
+            field_name:"",
             onEdit: function() {}, // Called after editing (accept button clicked)
             onBeforeDelete: function() {}, // Called before deletion
             onDelete: function() {}, // Called after deletion
@@ -180,12 +181,13 @@ class BSTable {
         let $currentRow = $(button).parents('tr'); // access the row
         console.log($currentRow);
         let $cols = $currentRow.find('td'); // read fields
+        let field_name = this.options.field_name;
         if (!this.currentlyEditingRow($currentRow)) return; // not currently editing, return
 
         // Finish editing the row & save edits
         this._modifyEachColumn(this.options.editableColumns, $cols, function($td) { // modify each column
             let cont = $td.find('input').val(); // read through each input
-            $td.html(cont); // set the content and remove the input fields
+            $td.html(`<input type="hidden" name="${ field_name }_${$currentRow.index()}_${ $td.index()}" value="${cont}"></input> ${cont} `); // set the content and remove the input fields
         });
         this._actionsModeNormal(button);
         this.options.onEdit($currentRow[0]);
